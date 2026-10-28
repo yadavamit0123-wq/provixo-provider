@@ -18,6 +18,14 @@ allprojects {
 
 rootProject.buildDir = '../build'
 subprojects {
+    project.configurations.configureEach {
+        resolutionStrategy {
+            force 'androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7'
+            force 'androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7'
+            force 'androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7'
+            force 'androidx.lifecycle:lifecycle-runtime-compose:2.8.7'
+        }
+    }
        afterEvaluate { project ->
             if (project.hasProperty('android')) {
                 project.android {
@@ -31,7 +39,7 @@ subprojects {
         if (project.plugins.hasPlugin("com.android.application") ||
                 project.plugins.hasPlugin("com.android.library")) {
             project.android {
-                compileSdkVersion 37
+                compileSdkVersion 36
             }
         }
     }
