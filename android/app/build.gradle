@@ -24,7 +24,8 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace "com.pt.provixoprovider"
-    compileSdkVersion 36
+    compileSdkVersion 37
+    ndkVersion "28.2.13676358"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -42,7 +43,7 @@ android {
     defaultConfig {
         applicationId "com.pt.provixoprovider"
         minSdkVersion 24
-        targetSdkVersion 36
+        targetSdkVersion 37
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
