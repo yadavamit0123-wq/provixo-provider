@@ -6,7 +6,7 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:edemand_partner/data/model/chat/chatNotificationData.dart';
 import 'package:edemand_partner/data/model/chat/chatUser.dart';
 import 'package:edemand_partner/data/repository/chat/chatNotificationRepository.dart';
-import 'package:edemand_partner/utils/notification/awsomeNotification.dart';
+import 'package:edemand_partner/utils/Notification/awsomeNotification.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
 class ChatNotificationsUtils {

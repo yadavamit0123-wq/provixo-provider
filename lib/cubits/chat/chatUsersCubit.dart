@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:edemand_partner/data/model/chat/chatNotificationData.dart';
 import 'package:edemand_partner/data/model/chat/chatUser.dart';
 import 'package:edemand_partner/data/repository/chat/chatRepository.dart';
-import 'package:edemand_partner/utils/notification/chatNotificationsUtils.dart';
+import 'package:edemand_partner/utils/Notification/chatNotificationsUtils.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class ChatUsersState {}
