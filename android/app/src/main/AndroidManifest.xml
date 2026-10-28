@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="wrteam.edemand.provider">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -11,7 +10,7 @@
         android:allowBackup="false"
         android:fullBackupOnly="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="eDemand Provider"
+        android:label="ProVixo Provider"
         android:extractNativeLibs="true">
 
         <activity
@@ -56,14 +55,14 @@
 
         <meta-data
             android:name="vn.hunghd.flutterdownloader.NOTIFICATION_ICON"
-            android:resource="@drawable/ic_launcher_foreground" />
+            android:resource="@mipmap/ic_launcher_foreground" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_launcher_foreground" />
+            android:resource="@mipmap/ic_launcher_foreground" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="ADD_YOUR_ANDROID_MAPS_API_KEY_HERE"/>
+            android:value="AIzaSyA_usa-2matJnaEuxFvNag8qhXL51w4vJM"/>
 
     </application>
 </manifest>

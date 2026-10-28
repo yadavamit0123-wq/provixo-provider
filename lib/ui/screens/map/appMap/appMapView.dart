@@ -209,7 +209,7 @@ class _AppMapViewState extends State<AppMapView> {
           // urlTemplate:
           //     'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
           subdomains: const ['a', 'b', 'c', 'd'],
-          userAgentPackageName: 'wrteam.edemand.provider',
+          userAgentPackageName: 'com.pt.provixoprovider',
         ),
         if (osmPolylines.isNotEmpty)
           fmap.PolylineLayer(polylines: osmPolylines),

@@ -29,7 +29,7 @@ import GoogleMaps
    if #available(iOS 10.0, *) {
      UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate
    }
-   GMSServices.provideAPIKey("ADD_YOUR_IOS_MAPS_API_KEY_HERE")
+   GMSServices.provideAPIKey("AIzaSyA_usa-2matJnaEuxFvNag8qhXL51w4vJM")
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 

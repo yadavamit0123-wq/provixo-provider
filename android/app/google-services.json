@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "912377976249",
+    "project_id": "provixo-4af10",
+    "storage_bucket": "provixo-4af10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912377976249:android:ac1294f9a1b1fdedda5268",
+        "android_client_info": {
+          "package_name": "com.pt.provixo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6sYrpN477u8IifY4uGOfRbENw9Ob2sUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912377976249:android:ecd44a2c52d2eb54da5268",
+        "android_client_info": {
+          "package_name": "com.pt.provixoprovider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6sYrpN477u8IifY4uGOfRbENw9Ob2sUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

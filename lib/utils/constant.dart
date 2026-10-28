@@ -1,6 +1,6 @@
-const String appName = 'eDemand Provider';
+const String appName = 'ProVixo Provider';
 
-const String domain = "PLACE_YOUR_DOMAIN_URL_HERE";
+const String domain = "https://home.provixo.in";
 
 const String baseUrl = "$domain/partner/api/v1/";
 
